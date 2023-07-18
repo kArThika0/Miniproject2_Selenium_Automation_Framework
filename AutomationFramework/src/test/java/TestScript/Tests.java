@@ -14,7 +14,9 @@ public class Tests extends BaseTest{
 		loginPageEvents.enterPassword();
 		loginPageEvents.clickLoginButton();
 		
-		
+		Dashboard dashboard= new Dashboard();
+		dashboard.checkLogin();
+		dashboard.clickpunchInEmployee();
 		
 		
 		
