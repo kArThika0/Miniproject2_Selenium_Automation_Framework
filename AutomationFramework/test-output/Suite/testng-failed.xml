@@ -5,7 +5,7 @@
     <listener class-name="utils.SuiteListener"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
-    <parameter name="browserName" value="firefox"/>
+    <parameter name="browserName" value="chrome"/>
     <classes>
       <class name="TestScript.Tests">
         <methods>

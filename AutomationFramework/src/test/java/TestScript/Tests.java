@@ -1,5 +1,7 @@
 package TestScript;
 
+import java.time.Duration;
+
 import org.testng.annotations.Test;
 
 import pageEvents.*;
@@ -16,8 +18,8 @@ public class Tests extends BaseTest{
 		
 		Dashboard dashboard= new Dashboard();
 		dashboard.checkLogin();
-		dashboard.clickpunchInEmployee();
 		
+		dashboard.dropDownBox();
 		
 		
 		
